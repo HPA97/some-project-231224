@@ -8,6 +8,12 @@ const config: Config = {
   ],
   theme: {
     extend: {
+      spacing: {
+        'board-min-width': '600px',
+        'board-max-width': '1250px',
+        'board-min-height': '400px',
+        'board-max-height': '1000px'
+      },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
         'gradient-conic':
